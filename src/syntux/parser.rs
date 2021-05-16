@@ -26,7 +26,7 @@ pub(crate) struct Directory {
 
 /// A parser for Rust source code.
 pub(crate) struct Parser<'a> {
-    parser: RawParser<'a>,
+    parser: RawParser<'a, true>,
 }
 
 /// A builder for the `Parser`.
